@@ -1,0 +1,10 @@
+class Solution:
+    def isPrime (self, N):
+        flag=0
+        for i in range(2,N+1):
+            if N%i==0:
+                flag=1
+                print(0)
+                break
+        if flag==0:
+            print(1)
